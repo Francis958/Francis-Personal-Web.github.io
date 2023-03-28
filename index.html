@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Francis's Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar-1.png" alt="Francis Yuan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Francis Yuan">Francis Yuan</h1>
+
+          <p class="title">Data Scientist</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jiatao_yuan@brown.edu" class="contact-link">jiatao_yuan@brown.edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+14018379771" class="contact-link">+1 (401) 837-9771</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1999">1999</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Providence, Rhode Island, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+   <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+             I am Francis Yuan, I am currently pursuing a Master's degree in Data Science from Brown University.I am a highly motivated data scientist with experience in ETL, database management, machine learning, 
+	and statistical modeling, everything about data science.
+           
+          </p>
+
+          <p>
+         	My technical skills include proficiency in Python, SQL, R, and SAS, as well as experience with various tools such as GitHub, Tableau, PowerBI, AWS, GCP, and Azure. 
+          	In my industry experience, I have worked as a Data Scientist Intern at Cambridge Mobile Telematics and China Insurance Security Fund, 
+	where I have optimized performance bottlenecks, improved predictive models, and automated data reporting. 
+	Additionally, my research experience includes developing machine learning pipelines and modules for assistive devices and predicting hourly demand for bike sharing.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Skills</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Modeling</h4>
+
+                <p class="service-item-text">
+                  Machine Learning, Deep Learning, GLM, GAN, Natural Language Processing
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Visualization</h4>
+
+                <p class="service-item-text">
+                  High-quality and clear visualization using Tableau,PowerBI, R-Shiny
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Database Design</h4>
+
+                <p class="service-item-text">
+                  Database Optimization including Partition, Index, Tree
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Programming Skills</h4>
+
+                <p class="service-item-text">
+                  Proficient in Python(Pandas,Tensorflow, numpy, sklearn,Scipy) ,R,Julia. I could apply DFS,BFS, Greedy, Two
+	  Pointers,etc
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - Work Experiences
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Work Experiences</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/car.png" alt="Cambridge Mobile Telematics" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Cambridge Mobile Telematics</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    For this Internship, I was primarily doing the data processing,data modling,model 
+		deploying things using Pyhton and
+	   Cloud Services. I am pleased to see the benchmark model get deployed!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/logo2.jpg" alt="China Insurance Security Fund" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>China Insurance Security Fund</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    For this internship, I was doing a lot of data analytics, A/B testing, reporting, visualization tasks. 
+	   I dive deeper in insurance filed and analyzed different metrics such as ROMI, loss ratio, user growth,etc.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/logo3.jpg" alt="Center For Computation and Visualization, Brown University" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Center For Computation and Visualization, Brown University</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    For this one-year-long Internship, I help the genomics expert here to rebuild and optimize the database, built the 
+	   R-shiny web application to better inform the genetics's internal structure and conducted work seminars with
+	   experts here to report the results. 
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/logo5.png" alt="Paradiso's Lab" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Paradiso's Lab, Brown University</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I Worked in a team to create the ML-driven assistive device for veterans, 
+	    integrated different modules including object/obstacle detection and text reading, 
+	  improved the real-time recognition speed by 0.5 second
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+           <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/logo4.jpg" alt="EMR" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>LIFESPAN</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                   I preprocessed the data about the heat-island and emergency services used in Rhode Island. Worked closely 
+	  with people from hospital, professors and government officials to convey our findings and draft for grant.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+  <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">01 Dec, 2022</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+        <!--
+          - Hobbies
+        -->
+
+        <section class="Hobbies">
+
+          <h3 class="h3 clients-title">Hobbies</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo5.jpg" alt="client logo" width="40">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo5.jpg" alt="client logo" width="40">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo5.jpg" alt="client logo" width="40">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Brown University</h4>
+
+              <span>Sep,2021 — May,2023</span>
+              <p class="timeline-text">
+                Major: Data Science, GPA:4.0
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University Of Colorado</h4>
+
+              <span>Sep,2017 — May, 2021</span>
+
+              <p class="timeline-text">
+	Dual Majors: Applied Mathmatics and Economics GPA:3.9
+              </p>
+
+            </li>
+
+  
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Assistant,LifeSpan</h4>
+
+              <span>Dec,2022 — Present</span>
+
+              <p class="timeline-text">
+<ul style="color: white;">
+  <li>Led development of complex data cleaning and preprocessing procedures to transform 100k+ structured and unstructured healthcare records from various sources (electronic health records, emergency department reports) into the standardized format,reducing diagnostic time by 30%</li>
+  <li>Conducted statistical analysis using SAS and R to identify the relationships between various environmental and socioeconomic factors and emergency medical service utilization</li>
+  <li>Published research articles in peer-reviewed journals to contribute to the scientific understanding of the impact of climate on emergency healthcare utilization</li>
+</ul>
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Scientist Intern, Cambridge Mobile Teleamtics</h4>
+
+              <span>May,2022 — Sep,2022</span>
+
+              <p class="timeline-text">
+<ul style="color: white;">
+  <li>Developed and optimized ETL pipelines using AWS and Spark to integrate over 5M records, reducing runtime by 25% and facilitating streamlined data analysis to enhance business insights for the analytics team</li>
+  <li>Addressed a range of model performance bottlenecks by upgrading the transportation classification algorithm based on timeseries deep learning frameworks (Convolution, Recurrent network, Transformer, etc.), leading to improve the PR-AUC score by 0.3 and increase customer acquisition by 20K+ through deployment</li>
+  <li>Synthesized and translated scientific literature into actionable models from cutting-edge multidisciplinary research papers</li>
+  <li>Leveraged advanced SQL techniques such as CTEs, window functions, and indexing to optimize big data SQL queries</li>
+  <li>Collaborated with cross-functional teams to implement the state-of-the-art transportation model, closely monitored its outcomes, and effectively communicated key findings to senior leadership</li>
+</ul>
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Science Intern, Center For Computation and Visualization,BROWN UNIVERSITY</h4>
+
+              <span>Jan,2022 — Jan,2023</span>
+
+              <p class="timeline-text">
+<ul style="color: white;">
+  <li>Designed data ingestion pipelines for genomics quality control using Docker, SQL, and AWS Glue</li>
+  <li>Collaborated with other genomics scientists to produce interactive, web-based visualizations of the Genetics using R-Shiny.</li>
+  <li>Improved Single-Cell RNA regulatory network inference model by using LightGBM model</li>
+</ul>
+              </p>
+
+            </li>
+
+  <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Engineer Intern, PARADISO LAB, BROWN UNIVERSITY</h4>
+
+              <span>Jan,2022 — Jan,2023</span>
+
+              <p class="timeline-text">
+<ul style="color: white;">
+  <li>Worked in a team to create the ML-driven assistive device for veterans, integrated different modules including object/obstacle
+detection and text reading, improved the real-time recognition speed by 0.5 second</li>
+  <li>Created object localization modules utilizing YoloV5 and Detectron2, grasping module utilizing Text2Voice</li>
+</ul>
+              </p>
+
+            </li>
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Scientist Intern, China Insurance Security Fund</h4>
+
+              <span>Jun,2020 — Dec,2020</span>
+
+              <p class="timeline-text">
+<ul style="color: white;">
+  <li>Engineered end-to-end data pipelines combining SQL and Python to scrape, preprocess, and store over 50K potential insurance policymakers' data, optimizing data retrieval through query pipelines and reducing manual effort by 70%</li>
+  <li>Collaborated with underwriting team to develop and implement ML-based pricing models for new insurance products, achieving up to 20% reduction in mean absolute error compared to traditional actuarial pricing methods</li>
+  <li>Launched the predictive model for potential policymakers using statistical modeling algorithms (e.g., Logistic Regression, Random Forest, AdaBoost, XGBoost, Gradient Boost) and reduced the operational risks</li>
+</ul>
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Statistics</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Visualization</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Modeling</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Bussiness Sense</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Deep Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Visualization</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category='Deep Learning'>
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="Computer Vision" loading="lazy" >
+                </figure>
+
+                <h3 class="project-title">Computer Vision</h3>
+
+                <p class="project-category">Deep Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Machine Learning">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sharing Bike Prediction Feature Interpretation</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Project-3.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">OCR Recognition and Clustering</h3>
+
+                <p class="project-category">Machine Learning and Deep Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project4.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Startup Landscape Analsis</h3>
+
+                <p class="project-category">Data Visualization</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Customer Segmentation Analysis.</h3>
+
+                <p class="project-category">Data Visualization</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Police Shootings in the US</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+  
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+<section class="mapbox" data-mapbox>
+  <figure>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94343.73314020885!2d-71.42441646558652!3d41.824687665392276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e44e4d4f95125b%3A0xf4f94ed71f32eaa1!2sProvidence%2C%20RI%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+      width="400" height="300" loading="lazy"></iframe>
+  </figure>
+</section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
